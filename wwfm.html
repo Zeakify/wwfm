@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Display Code</title></head>
+  <body>
+    <pre id="codeDisplay">Loading...</pre>
+    <script>
+      fetch('https://wwfm.vercel.app/src.js').then(r=>r.text()).then(c=>document.getElementById('codeDisplay').textContent=c);
+    </script>
+  </body>
+</html>
